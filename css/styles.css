@@ -42,5 +42,48 @@ li{
 .button:hover{
     background-color: #eb7323;
 }
+.search-box{
+    border: none;
+    color: var(--primary);
+    background-color: transparent;
+    font-family: 'Medula One', cursive;
+    padding: 10px 5px;
+    font-size: 1.5em;
+}
+.search-box:focus{
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+.align-center{
+    align-items: center;
+}
 
 /* desktop styles */
+.header{
+    height: 100vh;
+    background: url(/images/main-background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navigation{
+    padding: 40px 0;
+}
+.nav-links{
+    grid-column: 1/5;
+}
+.nav-search{
+    grid-column: 10/13;
+    justify-self: end;
+    align-self: center;
+    border-bottom: 3px solid var(--primary);
+}
+.nav-search input{
+    width: 70%;
+}
+.nav-links a{
+    color: var(--primary);
+    font-family: 'Medula One', cursive;
+    font-size: 1.75em;
+    margin-right: 20px;
+}
