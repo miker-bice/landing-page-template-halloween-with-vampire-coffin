@@ -1,0 +1,9 @@
+fonts:
+Tinos bold
+Tinos regular
+MedulaOne regular
+
+
+colors:
+#cd6c2a
+#fff
