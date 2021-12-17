@@ -1,2 +1,4 @@
-# landing-page-template-halloween-with-vampire-coffin
-A website landing page for a local Halloween event made with HTML and CSS. Design from freepik.com
+# Festival of the Dead Landing Page
+
+A landing page built for a community Halloween Party. Built with pure HTML5 and CSS3, this landing page makes
+use of CSS grid in order to arrange the HTML components.
